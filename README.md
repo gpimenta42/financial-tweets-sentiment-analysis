@@ -9,18 +9,16 @@ This text mining project classifies financial tweets and short financial news sn
 - Selected **RashidNLP/Finance-Sentiment-Classification**, a finance-domain DeBERTa-based encoder, followed by an SVM classifier.
 - Reached **97.20% average validation macro F1** for the best experiment configuration and **0.98 macro F1** on the test set.
 
-## Technical Stack
+## Methods and Tools
 
-| Area | Tools and skills used |
+| Area | Used in this project |
 | --- | --- |
-| Programming environment | Python, Jupyter |
-| Data processing | pandas, NumPy |
-| NLP preprocessing | regex, NLTK, stop-word removal, stemming, lemmatization, punctuation and ticker handling |
-| Feature extraction | TF-IDF, GloVe, Hugging Face transformer embeddings |
-| Machine learning | scikit-learn, logistic regression, KNN, random forest, SVM |
-| Deep learning / transformers | PyTorch, TensorFlow, Hugging Face Transformers, Hugging Face Datasets |
-| Evaluation | stratified cross-validation, macro F1, per-class metrics |
-| Visualization | Matplotlib, Seaborn, WordCloud |
+| Text classification setup | Three-class financial sentiment classification for short tweets and news snippets |
+| Text preprocessing | Ticker, URL, punctuation, casing, stop-word, stemming, and lemmatization experiments |
+| Representation learning | TF-IDF, GloVe Twitter embeddings, finance-domain transformer embeddings |
+| Models explored | Logistic Regression, KNN, Random Forest, SVM, fine-tuned transformer encoders, zero-shot LLM classification |
+| Evaluation | Stratified validation, macro F1, per-class metrics |
+| Python tools | pandas, NumPy, scikit-learn, NLTK, Hugging Face Transformers/Datasets, PyTorch, TensorFlow |
 
 ## Data and Target
 

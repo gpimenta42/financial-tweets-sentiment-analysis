@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+outputs/
+results/
+pred_*.csv
+submission*.csv
+*.log
